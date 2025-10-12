@@ -7,7 +7,7 @@ const Certifications = () => {
     "Game Testing Fundamentals",
     "API Testing with Postman",
     "Product Management Crash Course",
-    "Manual Testing / QA Foundations",
+    "Manual Testing / Automation Testing / QA Foundations",
   ];
 
   return (

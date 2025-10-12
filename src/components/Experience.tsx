@@ -5,25 +5,25 @@ import { Briefcase, CheckCircle2 } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Product Manager",
-      company: "XYZ Pvt Ltd",
-      period: "Apr 2024 – Present",
+      title: "Product Manager.",
+      company: "Amahop Technologies Pvt Ltd",
+      period: "Apr 2025 – Present",
       responsibilities: [
-        "Owned product roadmap, prioritized sprints, and aligned features with business goals",
-        "Conducted UAT, coordinated app/game releases, and optimized feedback cycles",
-        "Bridged QA insights with product strategy, improving user satisfaction and app ratings",
+        "Owned product roadmap, prioritized sprints, and aligned features with business goals.",
+        "Conducted UAT, coordinated app/game releases, and optimized feedback cycles.",
+        "Bridged QA insights with product strategy, improving user satisfaction and app ratings.",
       ],
       current: true,
     },
     {
-      title: "QA Engineer",
-      company: "XYZ Pvt Ltd",
-      period: "Aug 2023 – Mar 2024",
+      title: "QA Engineer.",
+      company: "Amahop Technologies Pvt Ltd ",
+      period: "Dec 2023 – Mar 2024",
       responsibilities: [
-        "Led game and mobile app testing for Android and iOS",
-        "Released 12 total apps (6 Android + 6 iOS)",
-        "Identified major edge case bugs that prevented production incidents",
-        "Ensured compatibility across devices and operating systems",
+        "Game and mobile app testing for Android and iOS.",
+        "Released 12 total apps (6 Android + 6 iOS).",
+        "Identified major edge case bugs that prevented production incidents.",
+        "Ensured compatibility across devices and operating systems.",
       ],
       current: false,
     },

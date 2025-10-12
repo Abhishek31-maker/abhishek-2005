@@ -19,7 +19,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card border border-primary/20 animate-fade-in">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-muted-foreground">QA + Product + Game Testing Professional</span>
+            <span className="text-sm font-medium text-muted-foreground">Quality Analyst + Product Manager</span>
           </div>
 
           {/* Main heading */}
@@ -27,20 +27,20 @@ const Hero = () => {
             <h1 className="text-5xl md:text-7xl font-bold">
               Hi, I'm{" "}
               <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent animate-gradient-shift bg-[length:200%_auto]">
-                Your Name
+                Abhishek
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              QA Engineer turned Product Manager with expertise in mobile app testing, game testing, and full-cycle app releases
+              QA Engineer turned Product Manager with expertise in mobile app testing, game testing, and full-cycle app releases.
             </p>
           </div>
 
           {/* About section */}
           <div className="max-w-4xl mx-auto bg-card/50 backdrop-blur-sm border border-border rounded-2xl p-8 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <p className="text-lg text-foreground leading-relaxed">
-              I'm a passionate QA Engineer turned Product Manager with over a year of experience in testing apps, websites, and mobile games. 
+              I'm a passionate QA Engineer turned Product Manager with over a year of experience in testing Android apps, websites, and mobile games. 
               I specialize in discovering rare edge case bugs, improving user experience, and managing releases from development to store deployment. 
-              I've successfully <span className="text-primary font-semibold">released 6 Android and 6 iOS apps</span>, ensuring top-notch performance, usability, and design consistency.
+              I've successfully <span className="text-primary font-semibold">released Android and iOS apps</span>, ensuring top-notch performance, usability, and design consistency.
             </p>
           </div>
 

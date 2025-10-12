@@ -7,17 +7,17 @@ const Projects = () => {
     {
       title: "Mobile Game Testing",
       icon: Gamepad2,
-      description: "Comprehensive testing for mobile games across Android and iOS platforms",
-      stats: "3 games • 50+ bugs found",
-      highlights: ["Performance optimization", "Logic testing", "UI/UX validation"],
+      description: "Comprehensive testing for mobile games across Android and iOS platforms.",
+      stats: "2 games • 100+ bugs found",
+      highlights: ["Performance optimization.", "Logic testing.", "UI/UX validation.", "Edge case Testing."],
       gradient: "from-primary to-primary/60",
     },
     {
       title: "App Release Projects",
       icon: Smartphone,
-      description: "Full-cycle app releases from development to production deployment",
+      description: "Full-cycle app releases from Product Requrements to production deployment.",
       stats: "12 apps released (6 Android + 6 iOS)",
-      highlights: ["Play Store deployment", "App Store submission", "Version management"],
+      highlights: ["Play Store deployment.", "App Store submission.", "Version management."],
       gradient: "from-secondary to-secondary/60",
     },
     {
@@ -25,7 +25,7 @@ const Projects = () => {
       icon: Globe,
       description: "Responsive and cross-browser testing with accessibility checks",
       stats: "Multiple projects",
-      highlights: ["Cross-browser testing", "Responsive design validation", "Accessibility compliance"],
+      highlights: ["Cross-browser testing.", "Responsive design validation.", "Accessibility compliance."],
       gradient: "from-accent to-accent/60",
     },
   ];

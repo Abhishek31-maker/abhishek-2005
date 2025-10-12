@@ -7,22 +7,22 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com",
+      value: "abhipro31@gmail.com",
+      href: "mailto:abhipro31@gmail.com",
       color: "from-primary to-primary/80",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect on LinkedIn",
-      href: "https://linkedin.com/in/yourprofile",
+      href: "https://linkedin.com/in/abhishek31st",
       color: "from-secondary to-secondary/80",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "View Projects",
-      href: "https://github.com/yourprofile",
+      href: "https://github.com/Abhishek31-maker/Quality-Analyst",
       color: "from-accent to-accent/80",
     },
   ];
