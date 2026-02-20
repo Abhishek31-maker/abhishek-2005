@@ -62,6 +62,11 @@ const Skills = () => {
         "Appium (Andoid + iOS)",
         "JMeter",
         "Agile Boards",
+        "Charles Proxy",
+        "GIMP",
+        "Playwright",
+        "AdMob Mediation",
+        "Achivements"
         ,
       ],
     },

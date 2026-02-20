@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Mail, Linkedin, Github, Download, MessageCircle } from "lucide-react";
+// import Resume from "@/components/Resume"
+
+
 
 const Contact = () => {
   const contactMethods = [
@@ -69,14 +72,21 @@ const Contact = () => {
         </div>
 
         {/* Download Resume Button */}
+        
         <div className="text-center space-y-4">
+
           <Button 
+          
             size="lg" 
-            className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity px-8 py-6 rounded-full group"
-          >
-            <Download className="mr-2 group-hover:translate-y-1 transition-transform" />
-            Download Resume
+            className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-opacity px-10 py-6 rounded-full group"
+          > 
+            <a href="/resume.pdf" download> 
+          <Download  className="mr-2 group-hover:translate-y-1 transition-transform" />
+            Download Resume</a>
           </Button>
+
+          
+            {/* <Resume /> */}
           
           {/* Floating chat button concept */}
           <p className="text-sm text-muted-foreground">
@@ -87,13 +97,13 @@ const Contact = () => {
 
       {/* Floating connect button (fixed position) */}
       <div className="fixed bottom-8 right-8 z-50">
-        <Button 
+        {/* <Button 
           size="lg"
           className="rounded-full w-16 h-16 bg-gradient-to-r from-primary to-secondary hover:opacity-90 transition-all shadow-lg hover:shadow-primary/50 group"
           title="Let's Connect"
         >
           <MessageCircle className="w-6 h-6 group-hover:scale-110 transition-transform" />
-        </Button>
+        </Button> */}
       </div>
     </section>
   );
